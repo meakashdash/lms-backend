@@ -33,6 +33,8 @@ app.use(cookieParser());
 app.use(morgan("dev"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
+export default app;
+
 
 
 
